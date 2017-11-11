@@ -1,0 +1,182 @@
+/*
+Project Name: Blank Template
+Client: Relaxr
+Author: JJ Vanni
+Developer @GA in SF
+*/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+* {
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box;
+}
+body {
+	margin: auto;
+	color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+}
+.background {
+	background: url(../img/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+      margin: 0 auto;
+}
+#companylogo {
+	color: white;
+	text-decoration: none;
+}
+#relaxr {
+	color: white;
+	font-size: 32px;
+	font-weight: bolder;
+	margin-left: 60px;
+	margin-top: auto;
+	padding-top: 30px;
+}
+
+.tagline {
+	text-align: center;
+	margin: 15% auto auto auto;
+	font-size: 32px;
+	color: white;
+	font-weight: bold;
+}
+
+#yellowbutton {
+	background-color: #f9e42e;
+	color: #033048;
+	text-align: center;
+	margin: 5% 38% 200px 42%;
+	width: 250px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+
+/* BENEFITS */
+.benefits {
+	background-color: #f0efef;
+	padding: 20px 50px;
+	margin: 0 auto;
+}
+.btext {
+	margin-left: 50px;
+}
+.btitle {
+	color: #033048;
+	margin: 100px auto 20px 60px;
+	font-size: 32px;
+	font-weight: bold;
+}
+.bpara {
+	width: 55%;
+	font-size: 24px;
+	font-weight: lighter;
+	margin-left: 60px;
+	margin-bottom: 40px;
+	font-stretch: expanded;
+}
+.blist {
+	width: 40%;
+	font-size: 26px;
+	margin-left: 100px;
+	margin-bottom: 80px;
+	font-weight: lighter;
+}
+
+
+/* TESTIMONIAL */
+.testimonial {
+	background: url(../img/testimonial_bg.jpg);
+	background-size: cover;
+	margin: auto;
+	padding: 100px;
+}
+.ttext {
+	text-align: center;
+	color: white;
+	font-size: 26px;
+	font-weight: lighter italic;
+}
+.tpara {
+	margin: auto;
+	width: 45%;
+	font-weight: lighter;
+}
+
+
+/* SIGN UP BAR */
+.signupbar {
+	height: 120px;
+	background-color: #f9e42e;
+}
+#bluebutton {
+	background-color: #033048;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	width: 300px;
+	margin-top: 2.5%;
+	margin-left: 39.5%;
+	border: none;
+	border-radius: 5px;
+	height: 60px;
+	font-size: 20px;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+	background-color: #121212;
+	color: white;
+	margin: 0;
+	padding: 40px;
+}
+.frelaxr {
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #f9e42e;
+	font-size: 32px;
+}
+.fsocial {
+	margin: 30px 20px 60px 20px;
+}
+.copyright {
+	margin-bottom: 0;
+	font-size: 9px;
+	font-weight: bold;
+}
