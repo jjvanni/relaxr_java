@@ -10,6 +10,7 @@ body {
 a:hover {
 	text-decoration: underline;
 }
+
 /* HEADER */
 header {
 	background-color: #033048;
@@ -64,9 +65,6 @@ article {
 	font-weight: lighter;
 }
 .art-background {
-	background-image: url(https://wallpaperclicker.com/storage/wallpaper/undersea-wallpapers-picture-77734744.jpg);
-	padding: 2px 5px 2px 5px;
-	border-radius: 20px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -83,14 +81,30 @@ article {
 	font-size: 20px;
 	color: #121212;
 }
+.hide {
+	font-weight: lighter;
+	font-size: 20px;
+	color: #121212;
+}
+
 .rmlink {
 	text-decoration: none;
 	float: right;
-	margin-top: 20px;
+	margin-bottom: 30px;
 	font-weight: 700;
 	color: #033048;
 }
 .rmlink:hover {
+	text-decoration: underline;
+}
+.rllink {
+	text-decoration: none;
+	float: right;
+	margin-bottom: 30px;
+	font-weight: 700;
+	color: #033048;
+}
+.rllink:hover {
 	text-decoration: underline;
 }
 .firstclass {
@@ -154,14 +168,35 @@ aside {
 	font-size: 18px;
 	font-weight: 100px;
 }
+#aboutmore {
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: 100px;
+	margin-top: auto;
+}
+#aboutuslinks {
+	display: inline-block;
+}
 #learnmore {
 	text-decoration: none;
 	margin-top: 0;
 	font-size: 20px;
 	font-weight: 600;
 	color: #033048;
+	float: left;
 }
 #learnmore:hover {
+	text-decoration: underline;
+}
+#collaspe {
+	text-decoration: none;
+	margin-top: 0;
+	font-size: 20px;
+	font-weight: 600;
+	color: #033048;
+	float: left;
+}
+#collaspe:hover {
 	text-decoration: underline;
 }
 

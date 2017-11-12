@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 	<title>Relaxr-Blog</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script> <!-- jQuey link -->
+	<script src="js/main.js"> </script> <!-- JavaScript -->
 </head>
 
 
@@ -24,6 +31,7 @@
 
 <!-- MAIN -->
 	<main>
+		<!--*******    ARTICLE 1    *******-->
 		<article>
 			<div class="art-background">
 				<h2 class="art-title">
@@ -34,10 +42,16 @@
 			<p class="artpara">
 				<span class="firstclass">L</span>orem ipsum dolor sit amet, eu saperet probatus salutandi sea, vel ad amet fastidii, commodo imperdiet et sea. Id impedit dolorem pri. Nominavi deserunt urbanitas vix at. Vocibus oporteat quaerendum eos at. Atqui virtute vim ad, his alii nibh reque ex. Aliquid invidunt in per, mandamus philosophia definitiones cum ad, mei ea tota perfecto.
 				<br>
-				<a href="#" class="rmlink">Read More ></a>
 			</p>
-			
+			<p  class="hide" id="show-on-click1">
+				Lorem ipsum dolor sit amet, eu saperet probatus salutandi sea, vel ad amet fastidii, commodo imperdiet et sea. Id impedit dolorem pri. Nominavi deserunt urbanitas vix at. Vocibus oporteat quaerendum eos at. Atqui virtute vim ad, his alii nibh reque ex. Aliquid invidunt in per, mandamus philosophia definitiones cum ad, mei ea tota perfecto.Lorem ipsum dolor sit amet, eu saperet probatus salutandi sea, vel ad amet fastidii, commodo imperdiet et sea. Id impedit dolorem pri. Nominavi deserunt urbanitas vix at.
+			</p>
+			<a href="#" class="rmlink" id="readmore1">Read More ></a>
+			<a href="#" class="rllink" id="readless1">Read Less ></a>
 		</article>
+		<!--******   END ARTICLE 1    ******-->
+
+		<!--******    ARTICLE 2    ******-->
 		<article>
 			<div class="art-background">
 				<h2 class="art-title">
@@ -48,16 +62,22 @@
 			<p class="artpara">
 				<span class="firstclass">L</span>orem ipsum dolor sit amet, eu saperet probatus salutandi sea, vel ad amet fastidii, commodo imperdiet et sea. Id impedit dolorem pri. Nominavi deserunt urbanitas vix at. Vocibus oporteat quaerendum eos at. Atqui virtute vim ad, his alii nibh reque ex. Aliquid invidunt in per, mandamus philosophia definitiones cum ad, mei ea tota perfecto.
 				<br>
-				<a href="#" class="rmlink">Read More ></a>
 			</p>
+			<p class="hide" id="show-on-click2">
+				Lorem ipsum dolor sit amet, eu saperet probatus salutandi sea, vel ad amet fastidii, commodo imperdiet et sea. Id impedit dolorem pri. Nominavi deserunt urbanitas vix at. Vocibus oporteat quaerendum eos at. Atqui virtute vim ad, his alii nibh reque ex. Aliquid invidunt in per, mandamus philosophia definitiones cum ad, mei ea tota perfecto.Lorem ipsum dolor sit amet, eu saperet probatus salutandi sea, vel ad amet fastidii, commodo imperdiet et sea. Id impedit dolorem pri. Nominavi deserunt urbanitas vix at.
+			</p>
+			<a href="#" class="rmlink" id="readmore2"> Read More ></a>
+			<a href="#" class="rllink" id="readless2"> Read Less ></a>
 		</article>
+		<!--*****     END ARTICLE 2     *****-->
 	</main>
 <!-- END MAIN -->
 
 
 <!-- ASIDE -->
 	<aside>
-		<div class="categories">
+		<!--*****     CATEGORIES     *****-->
+		<div class="categories">       
 			<h3 class="asidetitles"> Categories </h3>
 			<div id="catnav">
 				<p class="catlink"><a href="#" class="catselect"> Success Stories </a></p>
@@ -67,13 +87,26 @@
 				<p class="catlink"><a href="#" class="catselect"> Business Tips </a></p>
 			</div>
 		</div>
-		<div id="aboutus">
+		<!--*****    END CATEGORIES     *****-->
+
+		<!--*****     ABOUT US      *****-->
+		<div id="aboutus">   
 			<h3 class="asidetitles"> About Us </h3>
 			<p id="aboutpara">
 				Lorem ipsum dolor sit amet, eu saperet probatus salutandi sea, vel ad amet fastidii, commodo imperdiet et sea. Id impedit dolorem pri. Nominavi deserunt urbanitas vix at. 
 			</p>
-			<a href="#" id="learnmore"> Learn More </a>
+			<br>
+			<p class="hide" id="aboutmore">
+				Vocibus oporteat quaerendum eos at. Atqui virtute vim ad, his alii nibh reque ex. Aliquid invidunt in per, mandamus philosophia definitiones cum ad, mei ea tota perfecto.Lorem ipsum dolor sit amet, eu saperet probatus salutandi sea, vel ad amet fastidii, commodo imperdiet et sea. Id impedit dolorem pri.
+			</p>
+			<div id="aboutuslinks">
+				<a href="#" id="learnmore"> Learn More </a>
+				<a href="#" class="rllink" id="collaspe"> Collaspe </a>
+			</div>
 		</div>
+		<!--*****     END ABOUT US      *****-->
+
+		<!--*****     ADVERTISEMENT      *****-->
 		<div class="adunit">
 			<img src="img/ad-unit.png">
 		</div>
@@ -98,7 +131,11 @@
 
 
 <!-- Script -->
-	<script src="js/main.js"> </script>
+	<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script> <!-- jQuey link -->
+	<script src="js/main.js"> </script> <!-- JavaScript -->
 <!-- END Script -->
 </body>
 </html>
